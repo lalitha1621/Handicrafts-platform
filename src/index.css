@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Overall Page Styling */
+body {
+  @apply bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 text-gray-100 min-h-screen font-sans;
+}
+
+/* Cards and Inputs */
+.card {
+  @apply bg-gray-800/50 backdrop-blur-md border border-gray-700 rounded-2xl shadow-lg p-8;
+}
+
+/* Buttons */
+.btn {
+  @apply bg-gray-700 hover:bg-gray-600 text-gray-100 px-4 py-2 rounded-md font-semibold transition duration-300;
+}
+
+/* Headings */
+h1, h2 {
+  @apply text-gray-100 font-bold drop-shadow-md;
+}
